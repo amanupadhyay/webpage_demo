@@ -1,28 +1,50 @@
-
-/* body{
-  margin: : 0
+.top-section{
+  text-align: center;
+  background-color: #212529;
+  color: #ffffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-p{
-  color:blue
+body{
+  margin: 0;
 }
 
-#designation{
-  color:red
+#avatar{
+  width: 15%
 }
 
-#from-div{
-  background-color: #912529;
-  color:blue;
-  margin: 150px;
-  padding: 50px
+#skills-header{
+  font-size: 50px;
+  color: #37B8D4;
 }
 
-.to-div{
-  background-color: #917529;
-  padding: 10px
-}*/
+.skills-section{
+  text-align: center;
+}
 
-#closing-name{
-  font-family: 'Redressed', cursive;
+#python-icon{
+  width: 12%;
+  float:right;
+}
+
+#database-icon{
+  width: 12%;
+  float:left;
+}
+
+#web-icon{
+  width: 12%;
+  float:right;
+}
+
+.skills-row{
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+#skills-para{
+  line-height: 1.5;
+  margin-left: 50px
 }
